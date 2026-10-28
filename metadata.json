@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora Python com Tkinter",
+  "description": "Calculadora completa em Python com interface gráfica Tkinter, simulador interativo em tempo real, visualizador de código e download do arquivo .py.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
