@@ -1,132 +1,267 @@
+🧮 Calculadora Interativa Desktop em Python
 
-🚀 Calculadora Interativa Desktop: Potência e Nostalgia em Python
+Potência, estabilidade e nostalgia em uma única aplicação!
 
-Uma aplicação desktop que une design icônico, estabilidade à prova de falhas e alta produtividade. Desenvolvida em Python com a biblioteca Tkinter, esta calculadora vai além do básico, oferecendo uma experiência tátil, suporte total a hardware e uma viagem visual pela história dos sistemas operacionais.
+Uma calculadora desktop desenvolvida em Python com Tkinter, que combina operações matemáticas, interface gráfica interativa, atalhos de teclado e temas visuais inspirados em diferentes gerações do Windows.
 
-🎨 Experiência Visual e Temas Dinâmicos
+O projeto foi desenvolvido com auxílio do Google AI Studio, durante a imersão da Alura, como uma oportunidade de explorar programação, desenvolvimento de interfaces gráficas e recursos de inteligência artificial.
 
-Mude o visual do aplicativo instantaneamente com um clique. A interface gráfica conta com três temas renderizados em tempo real:
-• Modo Moderno: Visual Dark Mode minimalista e elegante, com botões em cinza fosco e um display digital destacado em verde neon de alta visibilidade.
-• Clássico Windows XP: Uma homenagem ao sistema mais querido dos anos 2000, trazendo as clássicas bordas azuis e botões em tom oliva.
-• Retrô Windows 98: Nostalgia pura! Estilo cinza industrial clássico com botões de relevo tridimensional que recriam a era de ouro da computação.
+---
 
-⌨️ Produtividade Extrema com Teclado Físico
+📸 Demonstração do Projeto
 
-Esqueça o mouse. A calculadora foi projetada para quem busca agilidade, mapeando nativamente as teclas do seu computador:
-• Digitação Fluida: Insira números e operadores (+, -, *, /) diretamente pelo teclado numérico.
-• Comandos Rápidos: Pressione Enter para ver o resultado, Backspace para corrigir o último dígito e Esc para zerar a tela instantaneamente.
+A aplicação apresenta três estilos visuais que permitem personalizar a experiência do usuário.
 
-⚡ Recursos de Cálculo e Estabilidade Absoluta
+┌──────────────────────────────────────┐
+│       🧮 CALCULADORA DESKTOP          │
+├──────────────────────────────────────┤
+│                                      │
+│                 125,50               │
+│                                      │
+├────────┬────────┬────────┬───────────┤
+│   C    │   ⌫    │   %    │     ±     │
+├────────┼────────┼────────┼───────────┤
+│   7    │   8    │   9    │     ÷     │
+├────────┼────────┼────────┼───────────┤
+│   4    │   5    │   6    │     ×     │
+├────────┼────────┼────────┼───────────┤
+│   1    │   2    │   3    │     −     │
+├────────┼────────┼────────┼───────────┤
+│   0    │   .    │   =    │     +     │
+└────────┴────────┴────────┴───────────┘
 
-• Matemática Completa: Soma, subtração, multiplicação, divisão, cálculo ágil de porcentagem (%) e inversão rápida de sinal (±).
-• Código Blindado (Zero Crashes): Desenvolvida com tratamento nativo de exceções. Se você tentar dividir por zero ou errar a sintaxe da fórmula, o sistema exibe uma mensagem de erro inteligente e limpa, impedindo que o aplicativo trave ou feche sozinho.
+Representação ilustrativa da interface.
 
-🔊 Feedback Tátil em Tempo Real
+---
 
-Sinta cada comando. O sistema possui um console de eventos integrado que monitora o comportamento do software em tempo real, registrando cada clique e gerando um feedback visual e sonoro simulado (🔊 *Clique*) no terminal.
+🎨 1. Temas Visuais
 
-📦 Portabilidade Máxima e Execução Multiplataforma
+A interface oferece diferentes estilos visuais para tornar a utilização mais personalizada.
 
-• Leve e Compatível: Roda com desempenho máximo no Windows, Linux e macOS.
-• Pronta para Distribuição: O código é 100% otimizado para o PyInstaller. Com uma única linha de comando, você transforma o script em um arquivo .exe autônomo, permitindo que qualquer pessoa execute a calculadora no Windows com dois cliques — mesmo sem ter o Python instalado.
-O que achou dessa nova abordagem? Se quiser, posso transformar esse texto em uma postagem chamativa para o LinkedIn para você divulgar o seu projeto para a sua rede! Como prefere continuar?
+Tema| Características
+🌙 Moderno| Dark Mode, fundo escuro e display em verde neon.
+🪟 Windows XP| Visual inspirado nas cores e interfaces clássicas do Windows XP.
+💾 Windows 98| Aparência retrô, com tons de cinza e botões em relevo.
 
-faça
+Fluxo de personalização
 
-Aqui está uma publicação de alto impacto para o seu LinkedIn, estruturada com técnicas de copywriting para engajar a sua rede, atrair conexões e destacar suas habilidades técnicas em Python:
-🚀 Do Retrô ao Moderno: Desenvolvi uma Calculadora Desktop Completa e Interativa em Python!
-Criar projetos que unem uma boa interface gráfica (GUI) à robustez no código é sempre um excelente desafio. Recentemente, desenvolvi uma calculadora desktop utilizando Python e a biblioteca Tkinter que vai além do básico, focando na experiência do usuário e na estabilidade da aplicação.
-O que torna esse projeto especial?
-🎨 Simulador de Temas Dinâmicos: A interface muda completamente de visual em tempo real! Conta com o modo Moderno (Dark Mode com display neon), o nostálgico Retrô Windows 98 (com botões em relevo tridimensional) e o icônico Windows XP.
-⌨️ Experiência de Teclado Nativa: Nada de ficar dependendo apenas do mouse. Mapeei os atalhos físicos do teclado (root.bind()) para que o usuário digite números e operadores diretamente, use Enter para o resultado, Backspace para apagar e Esc para limpar a tela.
-🛡️ Código Blindado contra Falhas: Implementei um tratamento nativo de exceções (try...except). Se houver uma tentativa de divisão por zero ou um erro de sintaxe, o sistema trata a falha de forma inteligente e exibe um aviso limpo no display, garantindo que o app nunca trave ou feche sozinho.
-🔊 Feedback em Tempo Real: O software monitora o comportamento e as interações do usuário, registrando logs no console e simulando cliques táteis a cada ação.
-📦 Portabilidade Total: O script roda perfeitamente em Windows, Linux e macOS, e foi otimizado para o PyInstaller, permitindo gerar um executável .exe autônomo (standalone) que roda em qualquer máquina sem precisar do Python instalado.
-Desenvolver esse projeto foi uma excelente oportunidade para consolidar conceitos de manipulação de interfaces gráficas, gerenciamento de eventos de hardware e boas práticas em tratamento de erros.
-🔗 O código completo e o guia de execução estão disponíveis no meu GitHub! (Insira o link aqui se quiser)
-O que achou da ideia de alternar temas nostálgicos em ferramentas do dia a dia? Deixe sua opinião nos comentários! 👇
-#Python #PythonProgramming #Tkinter #SoftwareDevelopment #Programacao #GitHub #UI #UX #RetroComputing #DesenvolvimentoDeSoftware
-Gostou da estrutura da postagem? Se quiser, posso te ajudar com ideias de imagens ou um pequeno vídeo de demonstração (como um GIF do app funcionando) para acompanhar o seu post e aumentar ainda mais o engajamento. Como prefere avançar?
+       ┌───────────────────┐
+       │  Abrir Calculadora│
+       └─────────┬─────────┘
+                 │
+                 ▼
+       ┌───────────────────┐
+       │ Selecionar Tema   │
+       └─────────┬─────────┘
+                 │
+       ┌─────────┼─────────┐
+       ▼         ▼         ▼
+   ┌────────┐ ┌──────┐ ┌────────┐
+   │Moderno │ │ XP   │ │ Win 98 │
+   └────────┘ └──────┘ └────────┘
 
-Ficha Técnica: Calculadora Interativa Desktop
+---
 
+⚙️ 2. Funcionalidades
 
-1. Operações e Recursos de Cálculo
+Operações matemáticas
 
-• Funções Aritméticas Básicas: Realiza operações fundamentais de Soma (+), Subtração (-), Multiplicação (*) e Divisão (/).
-• Funções Aritméticas Especiais: Inclui cálculo de Porcentagem (%) direto sobre expressões e Inversão de Sinal (±) para alternar rapidamente entre números positivos e negativos.
-• Controle de Entrada: Suporte a Ponto Decimal (.) para números de ponto flutuante, botão Limpar Total (C) para zerar o display e Backspace (⌫) para correção caractere por caractere.
+- ➕ Adição.
+- ➖ Subtração.
+- ✖️ Multiplicação.
+- ➗ Divisão.
+- 💯 Cálculo de porcentagem.
+- ➕➖ Inversão de sinal.
+- 🔢 Entrada de números decimais.
+- 🧹 Limpeza completa do visor.
+- ⌫ Exclusão do último caractere.
 
-2. Sistema de Prevenção de Falhas (Estabilidade)
+⌨️ Atalhos de teclado
 
-• Tratamento de Exceções Nativo: Código estruturado com blocos de validação de erros (try ... except ZeroDivisionError), impedindo o congelamento ou fechamento forçado da aplicação ao tentar dividir um número por zero.
-• Tratamento de Erros de Sintaxe: Caso o usuário digite uma sequência inválida de operadores, o sistema exibe um aviso visual de "Erro" no display de forma segura, sem travar a interface gráfica.
+A aplicação permite realizar operações utilizando o teclado físico do computador.
 
-3. Integração com Teclado Físico (Atalhos)
+Tecla| Ação
+"0–9"| Inserir números
+"+ - * /"| Inserir operadores
+"Enter"| Calcular resultado
+"Backspace"| Apagar o último caractere
+"Esc"| Limpar a tela
+"."| Inserir separador decimal
 
-O aplicativo mapeia os eventos do teclado do computador para digitação rápida sem uso do mouse:
-• Inserção: Teclas de 0 a 9 e operadores +, -, *, /.
-• Execução: Tecla Enter (<Return>) processa e exibe o resultado final.
-• Correção: Tecla Backspace apaga o último dígito inserido.
-• Reset: Tecla Esc (<Escape>) limpa completamente a tela.
+---
 
-4. Interface Gráfica e Simulador de Temas
+🛡️ 3. Tratamento de Erros
 
-O visual foi construído em cima da biblioteca Tkinter, contando com uma janela virtual que adapta todo o esquema de cores dinamicamente através de um menu de seleção. Os temas inclusos são:
-• Tkinter Moderno: Interface em modo escuro (Dark Mode) com fundo chumbo, botões em cinza fosco e display digital destacado em verde neon.
-• Clássico Windows XP: Visual inspirado no sistema de 2001, utilizando as cores azul clássico, cinza oliva e destaques em laranja.
-• Retrô Win98: Estilo nostálgico cinza padrão baseado nos relevos de botões tridimensionais clássicos dos sistemas operacionais antigos.
+A aplicação utiliza tratamento de exceções para lidar com entradas inválidas e situações inesperadas durante os cálculos.
 
-5. Monitoramento em Tempo Real (Console de Eventos)
+Fluxo de tratamento
 
-• Feedback Tátil/Sonoro: Cada clique em botão ou pressionamento de tecla gera um registro (log) instantâneo no terminal do sistema. O evento documenta a ação realizada e simula textualmente o efeito sonoro de um clique físico (🔊 *Clique*).
+     Entrada do usuário
+             │
+             ▼
+      Processamento
+             │
+             ▼
+    ┌─────────────────┐
+    │ Expressão válida?│
+    └────────┬────────┘
+             │
+       ┌─────┴─────┐
+       ▼           ▼
+      SIM         NÃO
+       │           │
+       ▼           ▼
+  Resultado     Mensagem
+  no visor      de erro
 
-6. Compatibilidade de Execução e Compilação
+Benefícios:
 
-• Windows: Execução direta via terminal do sistema (python calculadora.py).
-• Linux (Distribuições Debian/Ubuntu): Requer a biblioteca de vínculo gráfico (sudo apt install python3-tk).
-• macOS: Totalmente compatível nativamente ou através de pacotes complementares via Homebrew (brew install python-tk).
-• Compilação Autônoma: Estrutura otimizada para empacotamento em um único arquivo .exe executável para Windows por meio da ferramenta PyInstaller (pyinstaller --onefile --noconsole calculadora.py), dispensando a necessidade de o usuário final ter o Python instalado na máquina.
+- Tratamento de divisão por zero.
+- Identificação de expressões inválidas.
+- Exibição controlada de mensagens de erro.
+- Maior estabilidade durante a utilização.
 
-Aqui está uma versão ultra-atraente, refinada e com apelo visual da sua ficha técnica, ideal para colocar na documentação oficial do repositório, em um arquivo PDF ou em um portfólio de destaque:
+---
 
-📑 FICHA TÉCNICA: CALCULADORA INTERATIVA DESKTOP
+📊 4. Visão Geral dos Recursos
 
-A engenharia de software encontra o design nostálgico em uma aplicação robusta, estável e multiplataforma.
+RECURSOS DA APLICAÇÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🧮 1. Operações e Recursos de Cálculo
+Operações matemáticas  ██████████  100%
+Temas visuais          ██████████  100%
+Atalhos de teclado     ██████████  100%
+Tratamento de erros    ██████████  100%
+Logs de eventos        ██████████  100%
 
-• Funções Aritméticas Básicas: Execução precisa das operações fundamentais de Soma (+), Subtração (-), Multiplicação (*) e Divisão (/).
-• Funções Aritméticas Especiais: Processamento inteligente de Porcentagem (%) integrado à expressão ativa e inversão instantânea de polaridade numérica com o recurso de Inversão de Sinal (±).
-• Controle de Fluxo de Entrada: Suporte total a Ponto Decimal (.) para cálculos flutuantes, limpeza total do escopo através do botão C (Clear) e correção cirúrgica caractere por caractere via ⌫ (Backspace).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🛡️ 2. Engenharia de Estabilidade (Anti-Falhas)
+Gráfico ilustrativo de funcionalidades previstas no projeto, não de métricas de desempenho ou resultados de testes.
 
-• Blindagem de Exceções Nativa: Arquitetura protegida por blocos de validação (try ... except ZeroDivisionError), impedindo crash do sistema ou congelamento da interface ao realizar divisões por zero.
-• Tratamento de Anomalias de Sintaxe: Algoritmo de parsing que captura sequências inválidas de operadores e injeta um aviso controlado de "Erro" no visor, mantendo o ciclo de vida da aplicação 100% ativo.
+---
 
-⌨️ 3. Input Avançado: Integração com Hardware
+🔊 5. Monitoramento de Eventos
 
-Mapeamento de baixo nível dos eventos do teclado físico via root.bind(), eliminando a dependência do mouse para digitação de alta performance:
-• Bloco de Inserção: Entrada direta de numerais (0-9) e operadores matemáticos padrão.
-• Gatilho de Execução: Tecla Enter (<Return>) configurada para processamento imediato do resultado.
-• Correção Rápida: Tecla Backspace vinculada à exclusão do último caractere.
-• Reset de Memória: Tecla Esc (<Escape>) mapeada para limpeza completa do display.
+O projeto conta com registros de eventos no terminal, permitindo acompanhar as interações realizadas durante a utilização da calculadora.
 
-🎨 4. Interface Gráfica e Engine de Temas
+Exemplo ilustrativo:
 
-Interface construída sobre o framework Tkinter, acoplada a um motor de renderização dinâmica em tempo real que redesenha todo o ecossistema de cores sem reiniciar o app:
-• Tkinter Moderno: Estética em Dark Mode de alto contraste. Apresenta fundo chumbo (#202020), botões foscos e display digital com iluminação ativa em verde neon.
-• Clássico Windows XP: Fiel aos padrões visuais de 2001. Aplica o clássico azul de barras de tarefas, botões em tom oliva fosco e destaques de destaque em laranja vibrante.
-• Retrô Win98: Uma imersão histórica na computação pessoal dos anos 90. Design purista baseado na paleta cinza padrão e renderização de botões com relevo tridimensional geométrico.
+[INFO] Clique: 7
+[INFO] Clique: +
+[INFO] Clique: 5
+[INFO] Operação executada
+[INFO] Resultado: 12
 
-🔊 5. Telemetria e Monitoramento de UX
+Esse recurso facilita a observação do comportamento da aplicação e ajuda a compreender o fluxo de execução.
 
-• Logs Interativos de Feedback: Cada evento acionado na interface (clique em botão físico ou atalho de teclado) gera um disparo de telemetria no terminal. O log documenta a ação exata em tempo real acompanhado de um indicador de efeito sonoro simulado (🔊 *Clique*).
+---
 
-📦 6. Portabilidade, Ecossistema e Compilação
+💻 6. Tecnologias Utilizadas
 
-• Ambiente Windows: Inicialização imediata por console padrão utilizando python calculadora.py.
-• Ambiente Linux (Debian/Ubuntu): Compatibilidade garantida através do pacote de vínculo gráfico oficial sudo apt install python3-tk.
-• Ambiente macOS: Suporte integrado de forma nativa ou otimizado através do ecossistema Homebrew com brew install python-tk.
-• Distribuição Comercial (Standalone): Arquitetura 100% otimizada para compilação estática com PyInstaller. Gera um binário independente de apenas um arquivo (pyinstaller --onefile --noconsole calculadora.py), permitindo a execução no Windows sem a necessidade do interpretador Python instalado.
+Tecnologia| Aplicação no projeto
+🐍 Python| Lógica de programação e operações matemáticas
+🖥️ Tkinter| Desenvolvimento da interface gráfica
+🤖 Google AI Studio| Auxílio no desenvolvimento do projeto
+📦 PyInstaller| Empacotamento para distribuição, quando configurado
+🐙 Git e GitHub| Versionamento e hospedagem do código
+
+---
+
+📈 7. Fluxo de Funcionamento
+
+┌─────────────────────┐
+│   Interface Tkinter │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│ Entrada do Usuário  │
+│ Botões ou Teclado   │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│ Processamento Python│
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│ Validação e Cálculo │
+└──────────┬──────────┘
+           ▼
+┌─────────────────────┐
+│ Exibição do Resultado│
+└─────────────────────┘
+
+---
+
+🚀 8. Como Executar o Projeto
+
+Pré-requisitos
+
+- Python instalado.
+- Tkinter disponível na instalação do Python.
+- Git, caso deseje clonar o repositório.
+
+Passo 1 — Clonar o repositório
+
+git clone https://github.com/Ti31-o/Calculadora-Python.git
+
+Passo 2 — Entrar na pasta
+
+cd Calculadora-Python
+
+Passo 3 — Executar a aplicação
+
+O nome do arquivo abaixo é um exemplo. Utilize o nome real do script existente no repositório.
+
+python calculadora.py
+
+No Windows, também pode ser necessário utilizar:
+
+py calculadora.py
+
+Gerar um executável para Windows
+
+Se o projeto estiver preparado para empacotamento, instale o PyInstaller:
+
+pip install pyinstaller
+
+Depois, execute:
+
+pyinstaller --onefile --noconsole calculadora.py
+
+O executável será gerado na pasta "dist", desde que a compilação seja concluída com sucesso. A distribuição deve ser testada no ambiente de destino.
+
+---
+
+🎯 9. Objetivo do Projeto
+
+Consolidar conhecimentos em Python, lógica de programação, interfaces gráficas, manipulação de eventos, tratamento de exceções e organização de aplicações desktop.
+
+O desenvolvimento também proporcionou contato prático com ferramentas de inteligência artificial como apoio à criação de software.
+
+---
+
+📚 10. Aprendizados
+
+- Desenvolvimento de interfaces gráficas com Tkinter.
+- Manipulação de eventos de teclado e botões.
+- Organização da lógica de uma aplicação.
+- Tratamento de erros e exceções.
+- Personalização de interfaces por meio de temas.
+- Utilização de inteligência artificial como apoio ao desenvolvimento.
+- Versionamento e publicação de projetos no GitHub.
+
+---
+
+👨‍💻 Sobre o Projeto
+
+Este projeto faz parte da minha jornada de aprendizado contínuo em tecnologia e desenvolvimento de software.
+
+Acredito que a prática é fundamental para transformar conhecimento em experiência, construir um portfólio e evoluir profissionalmente na área de tecnologia.
+
+🔗 Repositório: https://github.com/Ti31-o/Calculadora-Python
+
+⭐ Se gostou do projeto, deixe uma estrela no repositório!
+
+Tecnologias e interesses
+
+"Python" · "Tkinter" · "GitHub" · "Desenvolvimento de Software" · "Inteligência Artificial" · "Programação" 
